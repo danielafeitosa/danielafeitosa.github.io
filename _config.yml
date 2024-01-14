@@ -1,0 +1,53 @@
+# Site settings
+title: Daniela Soares Feitosa
+email: danielafeitosa@gmail.com
+baseurl: ""
+url: ""
+
+# Build settings
+markdown: kramdown
+permalink: ":title/index.html"
+
+# Opcoes para kramdown
+kramdown:
+  parse_block_html: true
+
+# Nao copie estes arquivos para _site
+exclude:
+  - README.markdown
+  - script
+  - samples
+
+# Nao apague estes arquivos ao executar build
+keep_files:
+  - .git
+  - .svn
+  - javascript
+
+collections:
+  pages:
+    output: true
+    permalink: ":title/index.html"
+  slides:
+    output: true
+    permalink: ":title/index.html"
+
+# Configuracoes padrao para posts
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "post"
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+  -
+    scope:
+      path: ""
+      type: "slides"
+    values:
+      layout: "revealjs"

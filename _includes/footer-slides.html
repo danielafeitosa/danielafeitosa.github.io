@@ -1,0 +1,11 @@
+<footer class="slides-footer">
+  <p class="{{ include.page }}">
+  {% if include.page == "capa" %}
+    <img class="logo" src="{{ site.baseurl }}/files/slides/brasao_ufba.png" alt="Brasão UFBA">
+    <img class="logo" src="{{ site.baseurl }}/files/slides/logo_ic.png" alt="Logo Instituto de Computação">
+    <img class="logo" src="{{ site.baseurl }}/files/slides/seed.png" alt="Logo Grupo de Pesquisa Seed" />
+  {% else %}
+    <img class="logo" src="{{ site.baseurl }}/files/slides/seed.png" alt="Logo Grupo de Pesquisa Seed" />
+  {% endif %}
+  </p>
+</footer>

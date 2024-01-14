@@ -1,0 +1,161 @@
+section .box-blue,
+section .box-green,
+section .box-gray,
+section .box-yellow,
+section .box-white {
+  padding: 20px;
+}
+
+section .box-blue {
+  background: url(/files/backgrounds/RGB101133D8.svg);
+}
+section .box-green {
+  background: url(/files/backgrounds/RGB071707D8.svg);
+}
+section .box-gray {
+  background: url(/files/backgrounds/RGB2A2A2CD8.svg);
+}
+section .box-yellow {
+  background: url(/files/backgrounds/RGB37371AC1.svg);
+}
+section .box-white {
+  background: url(/files/backgrounds/RGBE6E6E645.svg);
+}
+
+.url {
+  color: #4444FF;
+  text-shadow: 1px 1px 1px #004;
+}
+
+.reveal section img {
+  background: none;
+  border: 0;
+  box-shadow: none;
+}
+
+.reveal .slide-number {
+  font-size: 26px;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.reveal .cite {
+  font-size: 22px;
+  margin-top: 15px;
+  color: #222;
+}
+
+.reveal .progress {
+  color: red;
+}
+
+.reveal .table {
+  font-size: 30px;
+}
+
+/* Slides template styles */
+/* ----------------------------------------------------------*/
+
+.left-container {
+  display: flex;
+  height: 100%;
+}
+
+.left-container .institutions {
+  flex: 0 0 15%; /* Set to a maximum of 15% width */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  padding: 20px; /* Adjust as needed for spacing */
+}
+
+section img.logo {
+  max-height: 3em;
+  margin: 0px 20px;
+}
+section header img.logo {
+  max-height: 2em;
+  margin: 0px 0px;
+}
+section img.contributions {
+  max-height: 6em;
+  margin: 0px 20px;
+}
+
+#header-left {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  display: block;
+}
+#header-right {
+  position: absolute;
+  top: 0%;
+  right: 0%;
+  display: block;
+}
+#header-left .logo {
+  max-width: 2em;
+}
+#footer-left {
+  position: absolute;
+  bottom: 0%;
+  left: 0%;
+  display: block;
+}
+
+header { 
+  position: absolute;
+  top: 0em;
+  left: 0px;
+} 
+header .capa { 
+  position: absolute;
+  top: -4em;
+  width: 100%;
+  text-align: center;
+}
+
+.reveal,
+.reveal h1, .reveal h2, .reveal h3, .reveal h4, .reveal h5, .reveal h6 {
+  color: #333;
+}
+.reveal h3 {
+  text-align: left;
+  margin-left: 2em;
+}
+
+h3:before {
+  content : "";
+  position: absolute;
+  left    : 2em;
+  top  : 10px;
+  height  : 3px;
+  width   : 25%;
+  border-bottom: 3px solid #ff6f1b;
+}
+
+.reveal h4 {
+  color: #e85519;
+}
+
+.reveal p {
+  text-align: left;
+}
+
+.reveal .controls {
+  color: #e85519;
+}
+
+.reveal .crono {
+  float: left;
+  background-color: white;
+}
+
+.reveal .crono.right{
+  border-left: 1px dotted #e85519;
+}
+
+.cronoimage {
+  float: right;
+}
