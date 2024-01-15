@@ -6,21 +6,7 @@ layout: "seed"
 
 <!-- -------------------------------- -->
 
-<section data-state="hidden" data-visibility="hidden">
-
-{% include header-slides.html page="default" %}
-
-### Caracterização de Sustentabilidade e Abertura do Software para Pesquisa na Universidade
-
-<p style="text-align:center">
-<small><span style="color:#3d3d3d">Salvador/BA, 15 de Janeiro de 2024</span></small>
-</p>
-
-</section>
-
-<!-- -------------------------------- -->
-
-<section data-visibility="hidden">
+<section>
 
 #### Caracterização de Sustentabilidade e Abertura do Software para Pesquisa na Universidade
 
@@ -44,14 +30,53 @@ _Apresentação para banca de qualificação de mestrado do Programa de Pós-gra
 
 <section>
 
-{% include header-slides.html page="default" %}
+  <section>
 
-### Contexto
+  {% include header-slides.html page="default" %}
+
+  <h3>Problema</h3>
+
+  </section>
+
+  <section>
+
+  {% include header-slides.html page="subsection" parent="Problema" %}
+
+   <p class="box-gray">A sustentabilidade e a abertura (aderência aos princípios _FAIR_) dos artefatos de pesquisa, incluindo software, são consideradas essenciais para a confiabilidade e a reprodutibilidade da pesquisa.</p>
+
+  <small>
+    UNESCO, 2021.
+  </small>
 
   <aside class="notes">
     Shhh, these are your private notes 📝
   </aside>
 
+  </section>
+
+  <section>
+
+  {% include header-slides.html page="subsection" parent="Problema" %}
+
+  <p class="box-gray">Informações importantes como dados, fluxos de trabalho, código-fonte do software e outros artefatos da pesquisa nem sempre estão disponíveis, mesmo para projetos de pesquisa financiados por agências e fundações de pesquisa.</p>
+
+  <small>
+    CARVER et al., 2022.
+  </small>
+
+  </section>
+
+  <section>
+
+  {% include header-slides.html page="subsection" parent="Problema" %}
+
+  <p class="box-gray">É importante conhecer e reportar a prática atual em universidades, laboratórios de pesquisa e na indústria sobre o desenvolvimento de software para pesquisa e avaliar sua sustentabilidade e abertura para pesquisas de longo prazo.</p>
+
+  <small>
+    VENTERS et al., 2021; CARVER et al., 2022.
+  </small>
+
+  </section>
 
 </section>
 
@@ -64,7 +89,7 @@ _Apresentação para banca de qualificação de mestrado do Programa de Pós-gra
 ### Objetivo Geral
 
 <p>Caracterizar grupos de pesquisa de diferentes áreas do conhecimento da Universidade Federal da Bahia (UFBA), 
-com respeito ao uso de práticas de Ciência Aberta e à abertura e sustentabilidade do _software para pesquisa_ desenvolvido pelos pesquisadores do grupo, no contexto de valorização crescente de princípios e práticas da Ciência Aberta.</p>
+com respeito ao uso de práticas de Ciência Aberta e à abertura e sustentabilidade do _software para pesquisa_ desenvolvido por pesquisadores de tais grupo, no contexto de uso crescente de princípios e práticas da Ciência Aberta e  valorização do software para pesquisa.</p>
 
 
 </section>
@@ -136,7 +161,7 @@ com respeito ao uso de práticas de Ciência Aberta e à abertura e sustentabili
   <p class="item-list"><span>Q1:</span> Qual é a percepção de líderes de grupos de pesquisa da UFBA sobre Ciência Aberta e _software para pesquisa_?</p>
   <p class="fragment fade-up item-list subitem"><span>Q1.1:</span> Qual é a percepção sobre conceitos, princípios e práticas de Ciência Aberta?</p>
   <p class="fragment fade-up item-list subitem"><span>Q1.2:</span> Qual é a percepção sobre conceitos e práticas para o desenvolvimento de _software para pesquisa_ sustentável e aberta?</p>
-  <p class="fragment fade-up item-list subitem"><span>Q1.3:</span> Quais são os incentivos e desafios para a adoção de práticas Ciência Aberta e _software para pesquisa_ no grupo de pesquisa?</p>
+  <p class="fragment fade-up item-list subitem"><span>Q1.3:</span> Quais são os incentivos e desafios para o grupo de pesquisa na adoção de práticas Ciência Aberta e para o desenvolvimento de software para pesquisa?</p>
   </section>
 
   <section>
@@ -430,30 +455,7 @@ com respeito ao uso de práticas de Ciência Aberta e à abertura e sustentabili
 
 ### Cronograma
 
-
-<div class="crono left">
-
-| <small>**Atividade**</small>             | <small>**Meses**</small>         |
-| ------------------------------------     | :------------------------------  |
-|  <small>Exame de qualificação</small>    |  <small>Janeiro</small>          |
-|  <small>Seleção de participantes</small> |  <small>Janeiro</small>          |
-|  <small>Entrevistas</small>              |  <small>Fevereiro-Abril</small>  |
-|  <small>Análise das entrevistas</small>  |  <small>Março-Maio</small>       |
-
-</div>
-
-<div class="crono right">
-
-| <small>**Atividade**</small>             | <small>**Meses**</small>         |
-| ------------------------------------     | :------------------------------  |
-|  <small>Avaliação de software</small>    |  <small>Maio</small>             |
-|  <small>Síntese de resultados</small>    |  <small>Junho-Julho</small>      |
-|  <small>Redação da dissertação</small>   |  <small>Maio-Agosto</small>      |
-|  <small>Envio para a Banca</small>       |  <small>Agosto</small>           |
-|  <small>Defesa</small>                   |  <small>Setembro</small>         |
-
-</div>
-
+<img src="{{ site.baseurl }}/files/slides/cronograma.png" alt="Cronograma" />
 
 </section>
 
