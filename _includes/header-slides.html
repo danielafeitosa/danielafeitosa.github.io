@@ -1,19 +1,9 @@
-<header class="slides-header">
+{% if include.parent %}
+  <h3 class="{{ include.page }}">{{ include.parent }}</h3>
+{% endif %}
+
+<header class="{{ include.page }}">
   <p>
     <img class="logo" src="{{ site.baseurl }}/files/slides/seed.png" alt="Logo Grupo de Pesquisa Seed" />
   </p>
 </header>
-
-
-<!--
-  <header class="slides-header">
-  <p class="{{ include.page }}">
-    {% if include.page == "capa" %}
-      <img class="logo" src="{{ site.baseurl }}/files/slides/brasao_ufba.jpg" alt="Brasão UFBA">
-      <img class="logo" src="{{ site.baseurl }}/files/slides/logo_ic.png" alt="Logo Instituto de Computação">
-    {% else %}
-      <img class="logo" src="{{ site.baseurl }}/files/slides/seed.png" alt="Logo Grupo de Pesquisa Seed" />
-    {% endif %}
-  </p>
-</header>
--->
