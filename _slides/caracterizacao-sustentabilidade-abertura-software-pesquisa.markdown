@@ -444,16 +444,16 @@ com respeito ao uso de práticas de Ciência Aberta e à abertura e sustentabili
 
    <h5 class="fragment fade-up">
      "Understanding Practices and Challenges of Developing Sustainable Research Software: A Pilot Interview"
-     <br/><small>OpenScienSE, 2023. **DOI**: <span class="url">https://doi.org/10.5753/opensciense.2023.235677</span></small>
+     <br/><small>[Artigo] OpenScienSE, 2023. **DOI**: <span class="url">https://doi.org/10.5753/opensciense.2023.235677</span></small>
    </h5>
 
   <h5 class="fragment fade-up">
     "Understanding Understanding Practices and Challenges of Developing Sustainable Research Software: A Pilot Interview"
-    <br/><small>OpenScienSE, 2023. **DOI**: <span class="url">https://doi.org/10.5753/opensciense.2023.235707</span></small>
+    <br/><small>[Artigo] OpenScienSE, 2023. **DOI**: <span class="url">https://doi.org/10.5753/opensciense.2023.235707</span></small>
   </h5>
   <h5 class="fragment fade-up">
      "Princípios e Práticas para Sustentabilidade do Software de Pesquisa"
-     <br/><small>JAI, 2023. **DOI**: <span class="url">https://doi.org/10.5753/sbc.12853.0.3</span></small>
+     <br/><small>[Capítulo de livro] JAI, 2023. **DOI**: <span class="url">https://doi.org/10.5753/sbc.12853.0.3</span></small>
      
   </h5>
 
