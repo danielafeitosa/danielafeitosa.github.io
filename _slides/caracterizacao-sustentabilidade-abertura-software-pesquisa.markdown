@@ -389,10 +389,9 @@ com respeito ao uso de práticas de Ciência Aberta e à abertura e sustentabili
 
   {% include header-slides.html page="default" %}
 
-  <h3>Estudos Qualitativos sobre software para pesquisa<h3>
+  <h3>Estudos Qualitativos sobre software para pesquisa</h3>
 
   </section>
-
 
 
 
@@ -441,7 +440,7 @@ com respeito ao uso de práticas de Ciência Aberta e à abertura e sustentabili
 
   {% include header-slides.html page="subsection" parent="Resultados Parciais" %}
 
-   <h4>Artigos</h4>
+   <h4>Publicações</h4>
 
    <h5 class="fragment fade-up">
      "Understanding Practices and Challenges of Developing Sustainable Research Software: A Pilot Interview"
