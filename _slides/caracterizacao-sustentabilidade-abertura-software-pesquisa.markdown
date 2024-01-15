@@ -28,7 +28,7 @@ _Apresentação para banca de qualificação de mestrado do Programa de Pós-gra
 
 <!-- -------------------------------- -->
 
-<section>
+<section data-background="#fff7f0">
 
   <section>
 
@@ -144,7 +144,7 @@ com respeito ao uso de práticas de Ciência Aberta e à abertura e sustentabili
 
 <!-- -------------------------------- -->
 
-<section data-transition="zoom">
+<section data-background="#fff7f0" data-transition="zoom">
 
   <section>
 
@@ -176,7 +176,7 @@ com respeito ao uso de práticas de Ciência Aberta e à abertura e sustentabili
 
 <!-- -------------------------------- -->
 
-<section>
+<section data-background="#fffefb">
 
 {% include header-slides.html page="default" %}
 
@@ -191,7 +191,7 @@ com respeito ao uso de práticas de Ciência Aberta e à abertura e sustentabili
 
 <!-- -------------------------------- -->
 
-<section data-transition="zoom" data-background="#DDD">
+<section data-background="#fff7f0" data-transition="zoom">
 
   <section>
 
@@ -254,14 +254,14 @@ com respeito ao uso de práticas de Ciência Aberta e à abertura e sustentabili
 
 ### Estratégia de Pesquisa
 
-1. Entrevista
-1. Avaliação de Software
-1. Síntese de Resultados
+  <p class="item-list"><span>01.</span> Entrevista</p>
+  <p class="item-list"><span>02.</span> Avaliação de Software</p>
+  <p class="item-list"><span>03.</span> Síntese de Resultados</p>
 
 </section>
 <!-- -------------------------------- -->
 
-<section data-transition="zoom">
+<section data-background="#fff7f0" data-transition="zoom">
 
   <section>
 
@@ -277,6 +277,8 @@ com respeito ao uso de práticas de Ciência Aberta e à abertura e sustentabili
 
    <h4>Seleção de Participantes</h4>
 
+   Líderes de grupos de pesquisa com envolvimento direto no desenvolvimento de software utilizado em seus grupos de pesquisa.
+
   </section>
 
   <section>
@@ -285,6 +287,8 @@ com respeito ao uso de práticas de Ciência Aberta e à abertura e sustentabili
 
    <h4>Guia de Entrevista</h4>
 
+   Entrevistas semiestruturadas com perguntas abertas.
+
   </section>
 
   <section>
@@ -292,12 +296,16 @@ com respeito ao uso de práticas de Ciência Aberta e à abertura e sustentabili
 
    <h4>Análise dos Dados</h4>
 
+   Codificação qualitativa descrito por Schreier (2012) para identificação de padrões combinando duas estratégias:
+   <p class="item-list"><span>(i)</span> orientada por conceitos, ou seja, com base no que já sabemos;</p>
+   <p class="item-list"><span>(ii)</span> orientada pelos dados, ou seja, deixando a codificação emergir das respostas.</p>
+
   </section>
 </section>
 
 <!-- -------------------------------- -->
 
-<section data-transition="zoom">
+<section data-background="#fff7f0" data-transition="zoom">
 
   <section>
 
@@ -312,6 +320,8 @@ com respeito ao uso de práticas de Ciência Aberta e à abertura e sustentabili
   {% include header-slides.html page="subsection" parent="Avaliação do Software" %}
 
    <h4>Seleção do Software</h4>
+
+   O líder de pesquisa entrevistado será solicitado a sugerir projetos de _software para pesquisa_ para avaliação e análise.
 
   </section>
 
