@@ -51,6 +51,10 @@ section .item-list span {
   box-shadow: none;
 }
 
+.reveal section img.big {
+  max-height: 11em;
+}
+
 .reveal .slide-number {
   background-color: #ff6f1b;
   opacity: 0.6;
@@ -144,6 +148,10 @@ h3:before {
 
 .reveal p {
   text-align: left;
+}
+
+.reveal p.center {
+  text-align: center;
 }
 
 .reveal .controls {

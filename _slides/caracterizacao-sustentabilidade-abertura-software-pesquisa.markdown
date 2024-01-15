@@ -331,6 +331,13 @@ com respeito ao uso de práticas de Ciência Aberta e à abertura e sustentabili
 
    <h4>Avaliação de Sustentabilidade</h4>
 
+   <p class="center">
+    <img class="big" src="{{ site.baseurl }}/files/slides/dev-praticas.png" alt="Avaliação de sustentabilidade baseada em práticas" />
+    <small>
+      Avaliação de sustentabilidade do software para pesquisa baseada em práticas (FLACH et al., 2023).
+    </small>
+   </p>
+
   </section>
 
   <section>
@@ -338,6 +345,13 @@ com respeito ao uso de práticas de Ciência Aberta e à abertura e sustentabili
   {% include header-slides.html page="subsection" parent="Avaliação do Software" %}
 
    <h4>Avaliação de Abertura</h4>
+
+   <p class="center">
+    <img class="big" src="{{ site.baseurl }}/files/slides/fairness.png" alt="Avaliação de abertura baseada nos princípios FAIR" />
+    <small>
+      Princípios FAIR para Software (BARKER et al., 2022).
+    </small>
+   </p>
 
   </section>
 
@@ -347,19 +361,11 @@ com respeito ao uso de práticas de Ciência Aberta e à abertura e sustentabili
 
    <h4>Análise dos dados</h4>
 
+   Faremos uma análise qualitativa de todas as tabelas preenchidas na avaliação de Sustentabilidade e Abertura do _software para pesquisa_ para respondermos a questão **Q2**
+
   </section>
 </section>
 
-<!-- -------------------------------- -->
-
-<section>
-
-{% include header-slides.html page="default" %}
-
-### Fluxo de Trabalho
-
-
-</section>
 
 <!-- -------------------------------- -->
 
