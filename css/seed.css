@@ -89,6 +89,9 @@ section img.contributions {
   max-height: 6em;
   margin: 0px 20px;
 }
+section p.authors {
+  font-size: 0.5em;
+}
 
 header { 
   position: absolute;

@@ -14,9 +14,10 @@ layout: "seed"
 _Apresentação para banca de qualificação de mestrado do Programa de Pós-graduação em Ciência da Computação da Universidade Federal da Bahia._
 </small>
 
-<p>Daniela Soares Feitosa</p>
 
-<span style="color:#3d3d3d">Orientadora: Dra. Christina von Flach G. Chavez</span>
+<p class=authors>Daniela Soares Feitosa</p>
+
+<p class=authors><span style="color:#3d3d3d">Orientadora: Dra. Christina von Flach G. Chavez</span></p>
 
 <p style="text-align:center">
 <small><span style="color:#3d3d3d">Salvador/BA, 15 de Janeiro de 2024</span></small>
@@ -89,7 +90,7 @@ _Apresentação para banca de qualificação de mestrado do Programa de Pós-gra
 ### Objetivo Geral
 
 <p>Caracterizar grupos de pesquisa de diferentes áreas do conhecimento da Universidade Federal da Bahia (UFBA), 
-com respeito ao uso de práticas de Ciência Aberta e à abertura e sustentabilidade do _software para pesquisa_ desenvolvido por pesquisadores de tais grupo, no contexto de uso crescente de princípios e práticas da Ciência Aberta e  valorização do software para pesquisa.</p>
+com respeito ao uso de práticas de Ciência Aberta e à abertura e sustentabilidade do _software para pesquisa_ desenvolvido por pesquisadores de tais grupos, no contexto de uso crescente de princípios e práticas da Ciência Aberta e  valorização do software para pesquisa.</p>
 
 
 </section>
@@ -375,6 +376,8 @@ com respeito ao uso de práticas de Ciência Aberta e à abertura e sustentabili
 
 ### Síntese de Resultados
 
+  <p class="item-list"><span>Por grupo de pesquisa:</span> síntese e discussão com base no cruzamento das entrevistas e a análise de documentos.</p>
+  <p class="item-list"><span>Todos os grupos:</span> discussão geral sobre as práticas mais/menos utilizadas considerando todos os grupos.</p>
 
 </section>
 
@@ -382,9 +385,15 @@ com respeito ao uso de práticas de Ciência Aberta e à abertura e sustentabili
 
 <section>
 
-{% include header-slides.html page="default" %}
+  <section>
 
-### Estudos Qualitativos sobre software para pesquisa
+  {% include header-slides.html page="default" %}
+
+  <h3>Estudos Qualitativos sobre software para pesquisa<h3>
+
+  </section>
+
+
 
 
 </section>
