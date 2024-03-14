@@ -1,0 +1,191 @@
+section .box-blue,
+section .box-green,
+section .box-gray,
+section .box-yellow,
+section .box-white {
+  padding: 20px;
+}
+
+section .box-blue {
+  background: url(/files/backgrounds/RGB101133D8.svg);
+}
+section .box-green {
+  background: url(/files/backgrounds/RGB071707D8.svg);
+}
+section .box-gray {
+  background: url(/files/backgrounds/RGB2A2A2CD8.svg);
+}
+section .box-yellow {
+  background: url(/files/backgrounds/RGB37371AC1.svg);
+}
+section .box-white {
+  background: url(/files/backgrounds/RGBE6E6E645.svg);
+}
+
+.url,
+a.url {
+  color: #79C99E;
+}
+
+.reveal section img {
+  background: none;
+  border: 0;
+  box-shadow: none;
+}
+
+.reveal .slide-number {
+  font-size: 26px;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.reveal .cite {
+  font-size: 22px;
+  margin-top: 15px;
+  color: #222;
+}
+
+.reveal .progress {
+  color: red;
+}
+
+.reveal .table {
+  font-size: 30px;
+}
+
+/* Slides template styles */
+/* ----------------------------------------------------------*/
+
+.left-container {
+  display: flex;
+  height: 100%;
+}
+
+.left-container .institutions {
+  flex: 0 0 15%; /* Set to a maximum of 15% width */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  padding: 20px; /* Adjust as needed for spacing */
+}
+
+section img.logo {
+  max-height: 3em;
+  margin: 0px 20px;
+}
+section header img.logo {
+  max-height: 2em;
+  margin: 0px 0px;
+}
+section img.contributions {
+  max-height: 6em;
+  margin: 0px 20px;
+}
+
+#header-left {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  display: block;
+}
+#header-right {
+  position: absolute;
+  top: 0%;
+  right: 0%;
+  display: block;
+}
+#header-left .logo {
+  max-width: 2em;
+}
+#footer-left {
+  position: absolute;
+  bottom: 0%;
+  left: 0%;
+  display: block;
+}
+
+header { 
+  position: absolute;
+  top: 0em;
+  left: 0px;
+} 
+header .capa { 
+  position: absolute;
+  top: -4em;
+  width: 100%;
+  text-align: center;
+}
+
+.reveal {
+  color: #508484;
+}
+
+.reveal h1, .reveal h2, .reveal h3, .reveal h4, .reveal h5, .reveal h6 {
+  color: #E78895;
+}
+.reveal h3 {
+  text-align: center;
+  color: #E78895;
+}
+.reveal h5 {
+  text-align: center;
+  color: #35605A;
+  font-size: 0.8em;
+  font-style: italic;
+}
+
+.reveal p.list {
+  font-size: 0.7em;
+}
+
+section span.authors,
+section p.authors {
+  color: #E78895;
+  font-size: 0.7em;
+  text-align: center;
+}
+
+section p.fixed {
+  position: absolute;
+}
+section p.top {
+  top: 0;
+}
+
+
+.reveal p {
+  text-align: left;
+  vertical-align: middle;
+}
+
+.reveal p.center {
+  text-align: center;
+}
+
+.reveal p.middle {
+  text-align: center;
+}
+
+.reveal .controls {
+  color: #e85519;
+}
+
+.reveal .crono {
+  float: left;
+  background-color: white;
+}
+
+.reveal .crono.right{
+  border-left: 1px dotted #e85519;
+}
+
+.cronoimage {
+  float: right;
+}
+
+.reveal section img.big {
+  max-height: 8em;
+  opacity: 0.9;
+}
+
+
