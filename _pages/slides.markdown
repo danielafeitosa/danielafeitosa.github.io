@@ -1,7 +1,19 @@
 ---
+theme: simple
 title: Slides
-layout: page
+layout: default
 ---
 
-* [Qualificação de Mestrado - Jan/2024]({{ site.baseurl }}/caracterizacao-sustentabilidade-abertura-software-pesquisa/)
-* [Caminhos na Tecnologia: Experiências de uma Profissional - Mar/2024]({{ site.baseurl }}/meninas-digitais-caminhos-na-tecnologia/)
+{% assign sorted_slides = site.data.slides | sort: "year" | reverse %}
+{% for pub in sorted_slides %}
+<ul>
+    <li>
+        <a href="{{ pub.url }}" target="_blank">{{ pub.title }}</a> - <small><em>{{ pub.date }}{{ pub.year }}</em></small><br>
+        {% if pub.event.url %}
+          <small><a href="{{ pub.event.url }}" target="_blank">{{ pub.event.name }}</a></small>
+        {% else %}
+          <small><em>{{ pub.event.name }}</em></small>
+        {% endif %}
+    </li>
+</ul>
+{% endfor %}

@@ -1,7 +1,8 @@
 ---
 title: Páginas
-layout: page
+layout: default
 ---
 
+* [Início]({{ site.baseurl }})
 * [Slides]({{ site.baseurl }}/slides)
 

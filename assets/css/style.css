@@ -1,0 +1,15 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+.container {
+    max-width: 600px;
+}
+img.profile-pic {
+    border-radius: 80%;
+    max-width: 150px;
+    max-height: 150px;
+}

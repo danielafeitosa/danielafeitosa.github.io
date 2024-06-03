@@ -12,6 +12,13 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'LatoRegular';
+  src: url('Lato-Light.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 /* Base */
 /* ----------------------------------------------------------*/
 
@@ -20,17 +27,47 @@
   padding: 0;
 }
 
+html {
+  font-size: 16px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 18px;
+  }
+}
+
 html, body { height: 100%; }
 
 body {
   font-family: 'PfennigMedium', Helvetica, Arial, sans-serif;
-  font-size: 20px;
-  line-height: 1.5;
+  line-height: 1.6;
+  font-size: 1rem;
   font-weight: 300;
-  background-color: #3d3d3d;
 }
 
 h1, h2, h3, h4, h5, h6 { font-size: 100%; font-weight: 400; }
+
+h1 {
+  font-size: calc(1.5rem + 2vw);
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.75rem;
+}
+
+p {
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+li {
+  font-size: 1.3rem;
+}
 
 a         { color: #2a7ae2; text-decoration: none; }
 a:hover   { color: #000; text-decoration: underline; }
@@ -142,7 +179,64 @@ footer.site-footer div.wrap a,
 /* Home styles */
 /* ----------------------------------------------------------*/
 
-.home h1 { margin-bottom: 25px; }
+body.home {
+  font-family: 'LatoRegular', Helvetica, Arial, sans-serif;
+}
+
+.home h1 { 
+  margin-bottom: 20px;
+  font-size: 34px;
+}
+
+.home h2 { 
+  margin-top: 10px;
+}
+
+.home header.page-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.home header.page-header div {
+  text-align: right;
+}
+.home img.profile-pic {
+  border-radius: 70%;
+  max-width: 200px;
+  max-height: 200px;
+  transition: filter 0.3s ease-in-out;
+}
+
+.home img.profile-pic {
+  filter: grayscale(45%);
+}
+
+.home img.profile-pic:hover {
+  filter: grayscale(15%);
+}
+
+.home a {
+  color: #1a73e8;
+}
+
+.home a:visited {
+  color: #205caa;
+}
+
+.home footer {
+  text-align: center;
+}
+
+.home footer a {
+  color: #c1d3e6;
+  text-decoration: none;
+  margin: 0 10px;
+  transition: color 0.3s;
+}
+
+.home footer a:hover {
+  color: #0056b3;
+}
 
 .posts {
   list-style-type: none;

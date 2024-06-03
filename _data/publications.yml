@@ -1,0 +1,45 @@
+- title: "Princípios e Práticas para Sustentabilidade do Software de Pesquisa"
+  authors: "Christina von Flach, Joenio M. Costa, Daniela Feitosa"
+  published_in:
+    name: "42ª Jornada de Atualização em Informática (JAI)"
+    url: "https://csbc.sbc.org.br/2023/jai"
+  year: 2023
+  doi: "10.5753/sbc.12853.0.3"
+  type: "Capítulo de livro"
+
+- title: "Understanding Practices and Challenges of Developing Sustainable Research Software: A Pilot Interview"
+  authors: "Daniela Feitosa, Christina von Flach, Joenio Costa"
+  published_in:
+    name: "III Workshop de Práticas de Ciência Aberta para Engenharia de Software (OpenScienSE, 2023)"
+    url: "https://opensciense-org.github.io/opensciense2023/"
+  year: 2023
+  doi: "10.5753/opensciense.2023.235677"
+  type: "Artigo de conferência"
+
+- title: "Understanding Sustainability and FAIRness of Research Software"
+  authors: "Daniela Feitosa, Christina von Flach, Joenio Costa"
+  published_in:
+    name: "III Workshop de Práticas de Ciência Aberta para Engenharia de Software (OpenScienSE, 2023)"
+    url: "https://opensciense-org.github.io/opensciense2023/"
+  year: 2023
+  doi: "10.5753/opensciense.2023.235707"
+  type: "Artigo de conferência"
+
+- title: "Teaching and Promoting Engagement with OSS: Yet Another Experience Report"
+  authors: "Christina von Flach, Daniela Feitosa"
+  published_in:
+    name: "XXXVII Simpósio Brasileiro de Engenharia de Software (SBES '23)"
+    url: "https://cbsoft2023.ufms.br/sbes"
+  year: 2023
+  doi: "10.1145/3613372.3614190"
+  type: "Artigo de conferência"
+
+- title: "From Blackboard to the Office: A Look Into How Practitioners Perceive Software Testing Education"
+  authors: "Luana Martins, Vinicius Brito, Daniela Feitosa, Larissa Rocha, Heitor Costa, Ivan Machado"
+  published_in:
+    name: "International Conference on Evaluation and Assessment in Software Engineering (EASE 2021)"
+    url: "https://conf.researchr.org/home/ease-2021"
+  year: 2021
+  doi: "10.1145/3463274.3463338"
+  type: "Artigo de conferência"
+

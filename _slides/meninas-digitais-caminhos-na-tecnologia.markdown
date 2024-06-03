@@ -1,7 +1,7 @@
 ---
 title: Caminhos na Tecnologia - Experiências profissionais no Brasil e no exterior
 theme: simple
-layout: "default"
+layout: "slides"
 ---
 
 <section>

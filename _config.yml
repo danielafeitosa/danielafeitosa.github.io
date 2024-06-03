@@ -1,13 +1,10 @@
 # Site settings
 title: Daniela Soares Feitosa
 email: danielafeitosa@gmail.com
-author: Daniela Soares Feitosa
-baseurl: ""
-url: ""
 
 # Build settings
 markdown: kramdown
-permalink: ":title/index.html"
+#pppermalink: ":title/index.html"
 
 # Opcoes para kramdown
 kramdown:

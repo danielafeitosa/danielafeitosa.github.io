@@ -1,47 +1,22 @@
 <!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
-  <meta name="apple-mobile-web-app-capable" content="yes" />
-  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
-  <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
-  <link rel="stylesheet" href="{{ site.baseurl }}/javascript/reveal.js/css/reveal.css">
-  <link rel="stylesheet" href="{{ site.baseurl }}/javascript/reveal.js/css/theme/{% if page.theme %}{{ page.theme }}{% else %}black{% endif %}.css" id="theme">
-  
-  <!-- Code syntax highlighting -->
-  <link rel="stylesheet" href="{{ site.baseurl }}/javascript/reveal.js/lib/css/zenburn.css">
-  <!-- <link rel="stylesheet" href="{{ site.baseurl }}/css/revealjs.css"> -->
-  <link rel="stylesheet" href="{{ site.baseurl }}/css/default.css">
-</head>
-<body>
-  <div class="reveal">
-    <!-- Any section element inside of this container is displayed as a slide -->
-    <div class="slides">
-      {{ content }}
+<html lang="en">
+{% include head.html %}
+<body class="home">
+    {% include header.html %}
+    <div class="page-content">
+        <div class="wrap">
+        <header class="page-header">
+            <img class='profile-pic' src="/assets/img/profile.jpg" alt="Profile picture">
+            <div class="social-links">
+                {% for link in site.data.links %}
+                    <a href="{{ link.url }}" target="_blank">{{ link.name }}</a></br>
+                {% endfor %}
+            </div>
+        </header>
+        <h1>{{ page.title | default: site.github.repository_name }}</h1>
+        {{ content }}
+        </div>
+        {% include footer.html %}
     </div>
-  </div>
-  <script src="{{ site.baseurl }}/javascript/reveal.js/lib/js/head.min.js"></script>
-  <script src="{{ site.baseurl }}/javascript/reveal.js/js/reveal.js"></script>
-  <script>
-    // Full list of configuration options available at:
-    // https://github.com/hakimel/reveal.js#configuration
-    Reveal.initialize({
-      controls: true,
-      progress: true,
-      slideNumber: 'c/t',
-      history: true,
-      center: true,
-      fragments: true,
-      transition: 'slide', // none/fade/slide/convex/concave/zoom
-      backgroundTransition: '{% if page.backgroundTransition %}{{ page.backgroundTransition }}{% else %}fade{% endif %}', // none/fade/slide/convex/concave/zoom
-      // Optional reveal.js plugins
-      dependencies: [
-        { src: '{{ site.baseurl }}/javascript/reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
-        { src: '{{ site.baseurl }}/javascript/reveal.js/plugin/zoom-js/zoom.js', async: true },
-        { src: '{{ site.baseurl }}/javascript/reveal.js/plugin/notes/notes.js', async: true },
-      ]
-    });
-  </script>
 </body>
 </html>
